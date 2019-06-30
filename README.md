@@ -2,103 +2,92 @@
 
 ![Andy Gout](https://avatars0.githubusercontent.com/u/10484515?v=3&s=128)
 
-Formerly in talent management and found there wasn't enough time in the day to code whilst holding down a full-time job, so decided to create that time by becoming a web developer. Self-taught by building a database-driven site that lists theatre production and playtext details, a gap that remains in the market and a side project I will rebuild using best practices honed from my time at Makers Academy.
+I am a [Makers](https://makers.tech) graduate, landing my first developer role at the Financial Times in 2015 where I have worked on the new and improved [FT.com](https://www.ft.com), and [scoutAsia](https://www.scout.asia/en-gb): an Asia-focused companies and news search tool built as an FT-Nikkei collaboration.
 
-Presently I'm looking to begin my new career in an environment with equally passionate individuals where I can continue to learn fast amongst a team so as to return value quickly. I'm a Ruby convert (having started out with PHP) and am a nut for relational databases.
+
+## Certifications
+- Neo4j Certified Professional (Jun 2019: [certificate download](https://graphacademy.neo4j.com/certificates/ef86f844de6c7479be245113803848ac24cba9ae6aea22f08fa9d612d87c651f.pdf)).
+- AWS Certified Solutions Architect - Associate (Apr 2018: [badge verification](https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-04-25&ci=AWS00480997)).
+
+
+## Technical experience
+#### Back-end
+Node.js / TypeScript / Express / Elasticsearch / Neo4j / MySQL / AWS (Simple Storage Service (S3) / DynamoDB / Lambda / Elastic Container Service (ECS) / Identity and Access Management (IAM) / CloudWatch / CloudFormation) / Serverless framework / Docker
+
+#### Front-end
+Javascript ES6/7 / TypeScript / React / Redux / Immutable.js / HTML5 / CSS3 / Sass
+
+#### Testing
+Mocha (with Chai) / Jest (with Enzyme) / BrowserStack (cross-browser automated visual regression testing) / Pa11y (accessibility testing)
+
+#### Tools
+Babel / Webpack / CircleCI / Git / GitHub / Heroku / Fastly
+
+#### Other
+Polyfills / Accessibility / Performance improvements / A/B testing / Data tracking / Analytics, monitoring, and alerting
+
+
+## Courses attended
+- Elasticsearch Engineer I + II (Jun and Nov 2018).
+- Advanced Architecting on AWS (Jun 2018).
+
+
+## Achievements
+- Introduced multiple sets of region-specific data into scoutAsia (a key request from target customers): a process requiring ongoing commication with data providers to convey requirements and understand limitations, and integration of the data into a complex ETL process.
+- Architecting and implementation of an automated process to select a contract-defined amount of Asia-focused FT articles for use on scoutAsia. Its reliability was ensured with thorough tests and health checks, and incurred minimal server costs.
+- Eased development process of our automated visual regression tests by using S3 as a store for screenshots, enabling the intensive test suite to move from developers' local machines to the cloud.
 
 
 ## Skills
+#### Professional
+- Team management: Leadership and mentoring of nearshore team; line management; acting as technical liaison with other teams such as Editorial, Data Analytics, Operations Support, and Customer Relationship Management.
+- Presentational skills: Demonstrating new features to stakeholders; articulating technical concepts in understandable terms; delivering a presentation on graph databases at the FT.
+- Refining and fulfilling project requirements with UX, designers, data analysts, QA, stakeholders, and developers.
+- Leading recruitment: Composing job specs, liaising with FT's recruitment teams, promoting vacancies at events (including Silicon Milkroundabout), coordinating and conducting screenings and interviews.
 
-#### Relational databases
+#### Languages
+- British Sign Language: BSL 101 qualification and regular practice with colleagues.
+- Ongoing learning of Japanese through instructional books/audio, community meet-ups, and working alongside Nikkei team members - とても たのしい です!
 
-Fully confident in creating schema required for a given set of relationships and employing those with SQL; learned through the building of [TheatreBase](https://github.com/andygout/theatrebase_php) (prior to Makers Academy):
+#### Free Time
+- [Drawing and painting](https://www.facebook.com/pg/andygout/photos/?tab=album&album_id=158858234236787).
+- Hobby coding project, [TheatreBase](https://github.com/andygout/theatrebase-api): a graph database-powered site of theatrical production and playtext listings.
+- Competing in the [You're Gonna Need A Bigger Boat](https://www.film-quiz.com) film quiz.
 
-- Each theatrical production lists its most specific location setting, escalating to broader locations (i.e. Shoreditch -> London -> England -> Europe); therein I encountered the problem of a location being the setting within a pre-existing place (i.e. the Hagia Irene in Constantinople rather than Istanbul) and solved it by creating an additional table to inform the selection process ([first approach to problem on Stack Overflow](http://stackoverflow.com/questions/21658272/create-loop-within-sql-select-statement-until-chain-broken))
-- Awards listings required deep multidimensional arrays and the correct schema to support it, i.e. the Laurence Olivier Awards contain many ceremonies (2014, 2015...), which contain many categories (Best Actor, Best New Play...), which contain many nominations, each of which contains (potentially multiple) productions, playtexts, people or companies (which could in turn contain yet more people)
-- My current favourite SQL command: `COALESCE` ([Sitepoint discussion](http://community.sitepoint.com/t/sql-update-using-case-when-with-php-variable-as-argument/114817/8))
-
-
-#### Team Player
-
-- Originated idea chosen after successful pitch for two week final project at Makers Academy: [Movie Snaps](https://github.com/andygout/Movie-Snaps), a web app that allows users to upload photos of themselves at locations where movie scenes were shot (ideally re-enacting a scene), hooking up to GoogleMaps and OMDb APIs and utilising Amazon Web Services for image file storage ([live demo hosted on Heroku](https://movie-snaps.herokuapp.com/))
-- Worked with an Agile methodology to ensure all team members were across the entire codebase with discussions of improvements consistently during process (resulting in, at my suggestion, an overhaul of the routing to make more RESTful)
-- Invaluable experience dealing with a multi-branched GitHub repo and merge conflicts
-- Proud of two lines of ActiveRecord (Rails' ORM) code which obviated the need for a lengthy Ruby method that had been written: `has_many :visits , :through => :scenes` (in model); and
- `@list = Movie.joins(:visits).group(:name).count` (in controller)
-
-
-#### Ruby with PostgreSQL database
-- [Chitter](https://github.com/andygout/chitter-challenge), a Twitter clone built using Ruby on a Sinatra server with a PostgreSQL database
-- Successful implementation of password encryption and reset functionality utilising Mailgun API to email recovery token to user
-- Employed DataMapper ORM which taught me the concept of dirty resources
+#### Party Tricks
+- Recall of past Oscar winners and nominees.
+- A mean Christopher Walken impression (and some not so good others…).
 
 
-#### JavaScript
+## Employment and Education
 
-- [Bowling scorecard app](https://github.com/andygout/bowling-challenge), built entirely in JavaScript and tested with Jasmine, to handle logic of a bowling game, including the fiendishly anomalous final frame
-- Spruced up with some swanky jQuery
-- Live demo hosted on [Heroku](https://dry-harbor-7560.herokuapp.com/)
+#### [Financial Times](https://www.ft.com) (Oct 2015 to present)
+*Senior Web Developer* (Oct 2018 to present)
+- scoutAsia: Asia-focused companies and news analysis subscription-based tool.
 
+*Web Developer* (Oct 2016 to Sep 2018)
+- FT.com
+	- Streams (Tech and Opinion page improvements, and realising a bespoke layout for Life & Arts)
+	- Digital News Innovation R&D (Google-funded): News article topic relevance and exploration engine data visualisation
+	- Accessibility (contributed to FT.com attaining Level AA Conformance to Web Content Accessibility Guidelines (WCAG))
+	- Conversion (retaining existing and enticing new subscribers with user-specific offers)
 
-#### Language enthusiast (not *only* code)
+*Junior Web Developer* (Oct 2015 to Sep 2016)
+- FT.com
+	- Home page (iterations based on short feedback loops from editorial and tracked user interactions)
+	- Navigation (new header built in collaboration with Information Architecture team)
 
-- Ongoing learning of Japanese, Mandarin and Cantonese, through instructional books/audio and regular language community meet-ups - とても たのしい です!
+#### [Makers](https://makers.tech) coding bootcamp (Apr to Jul 2015)
+- Experience aplenty of group projects, pairing-up, and coding solo, using an Agile approach.
+- Ruby, Sinatra, Ruby on Rails, JavaScript, AngularJS, PostgreSQL, testing frameworks for TDD, and more.
+- Subsequently an alumni helper: first contact for students' blockers; chosen for technical prowess, communication skills and approachability demonstrated during course.
+- [Bowling scorecard app](https://github.com/andygout/bowling-challenge), built in JavaScript (and spruced up with jQuery), to handle logic of a bowling game, including the fiendishly anomalous final frame: [Heroku app](https://dry-harbor-7560.herokuapp.com).
 
+#### Talent and literary management at [Independent Talent Group](https://www.independenttalent.com) (2004-2009) and [United Agents](https://www.unitedagents.co.uk) (2009-2015)
+- Representation of internationally recognised performers (including knights, dames, and Oscar winners), and up-and-coming screenwriters, playwrights, and theatre directors & designers.
+- Negotiation of artist contracts, copyright licences, and commissioning agreements.
+- Complex schedule management.
+- Accompanying clients and professionals to industry events.
 
-#### Miscellaneous
-
-- Can do a mean Christopher Walken impression on request
-
-
-## Education
-
-#### [Makers Academy](http://beta.makersacademy.com/) (Apr to Jul 2015)
-
-- Experience aplenty of buddying-up and coding solo
-- Emphasis on being a self-starting learner
-- Taught best practice of key principles (especially those expressed as an acronym): OOP, TDD, BDD, DDD, SOLID, MVC
-- Ruby, Rails, JavaScript, jQuery, AngularJS
-- RSpec, Capybara, Cucumber, Jasmine, Karma, Protractor
-- Agile approach; pair programming; group projects
-- Subsequently an alumni helper: first contact for current students encountering problems; chosen for technical prowess, communication skills and approachability demonstrated during course
-
-
-#### Autodidacticism (ongoing)
-
-- PHP; SQL with MySQL database: used to build TheatreBase, which I'll be rebuilding in Ruby on Rails, fully tested and cleaner
-
-
-#### Royal Holloway, University of London (Sep 2001 to Jun 2004)
-
-- 2:1 BA (Hons) in Drama and Theatre Studies
-
-
-#### Moulsham High School (Sep 1994 to Jun 2001)
-
-- A Levels: English (A); Drama (A); and Art (B)
-- GCSEs: 9 x A grades; 1 x B grade
-
-
-## Employment
-
-#### United Agents (Nov 2009 to Apr 2015)
-*Literary Management*
-
-- Professional representation of playwrights; TV and screenwriters; theatre directors and designers
-- Negotiation of copyright licences; commissioning agreements; artist contracts
-- Understanding and application of worldwide copyright laws
-
-
-#### Independent Talent Group (Nov 2004 to Mar 2009)
-*Actor Management (Assistant to Managing Director)*
-
-- Representation of internationally recognised performers (including knights, dames and Oscar winners)
-- Contract negotiation and complex schedule management
-- Accompanying clients and professionals to industry events
-
-
-## Links
-
-- [Stack Overflow](http://stackoverflow.com/users/1780767/andy-gout)
-- [Sitepoint Forums](http://community.sitepoint.com/users/andygout/activity)
-- [Codewars](http://www.codewars.com/users/andygout)
+#### [Royal Holloway, University of London](https://www.royalholloway.ac.uk) (Sep 2001 to Jun 2004)
+- 2:1 BA (Hons) in Drama and Theatre Studies.
