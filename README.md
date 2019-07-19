@@ -32,6 +32,11 @@ Polyfills / Accessibility / Performance improvements / A/B testing / Data tracki
 - Advanced Architecting on AWS (Jun 2018).
 
 
+## Presentations given
+- *Found in Translation or: How Elasticsearch Helped Us Serve Our Asian Language-speaking Customers* (Elastic London User Group meetup, Jul 2019)
+- *Graph Databases: An Introduction* (FT, Nov 2017)
+
+
 ## Achievements
 - Introduced multiple sets of region-specific data into scoutAsia (a key request from target customers): a process requiring ongoing commication with data providers to convey requirements and understand limitations, and integration of the data into a complex ETL process.
 - Architecting and implementation of an automated process to select a contract-defined amount of Asia-focused FT articles for use on scoutAsia. Its reliability was ensured with thorough tests and health checks, and incurred minimal server costs.
@@ -41,7 +46,7 @@ Polyfills / Accessibility / Performance improvements / A/B testing / Data tracki
 ## Skills
 #### Professional
 - Team management: Leadership and mentoring of nearshore team; line management; acting as technical liaison with other teams such as Editorial, Data Analytics, Operations Support, and Customer Relationship Management.
-- Presentational skills: Demonstrating new features to stakeholders; articulating technical concepts in understandable terms; delivering a presentation on graph databases at the FT.
+- Presentational skills: Demonstrating new features to stakeholders, articulating technical concepts in understandable terms, delivering talks to larger audiences (see [above](https://github.com/andygout/cv#presentations-given)).
 - Refining and fulfilling project requirements with UX, designers, data analysts, QA, stakeholders, and developers.
 - Leading recruitment: Composing job specs, liaising with FT's recruitment teams, promoting vacancies at events (including Silicon Milkroundabout), coordinating and conducting screenings and interviews.
 
