@@ -39,7 +39,7 @@ Polyfills / Accessibility / Performance improvements / A/B testing / Data tracki
 
 
 ## Achievements
-- Introduced multiple sets of region-specific data into scoutAsia (a key request from target customers): a process requiring ongoing commication with data providers to convey requirements and understand limitations, and integration of the data into a complex ETL process.
+- Introduced multiple sets of region-specific data into scoutAsia (a key request from target customers): a process requiring ongoing communication with data providers to convey requirements and understand limitations, and integration of the data into a complex ETL process.
 - Architecting and implementation of an automated process to select a contract-defined amount of Asia-focused FT articles for use on scoutAsia. Its reliability was ensured with thorough tests and health checks, and incurred minimal server costs.
 - Eased development process of our automated visual regression tests by using S3 as a store for screenshots, enabling the intensive test suite to move from developers' local machines to the cloud.
 
