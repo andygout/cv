@@ -69,7 +69,11 @@ Polyfills / Accessibility / Performance improvements / A/B testing / Data tracki
 ## Employment and Education
 
 #### [Financial Times](https://www.ft.com) (Oct 2015 to present)
-*Senior Web Developer* (Oct 2018 to present)
+*Senior Web Developer (Level 2)* (Apr 2020 to present)
+- Customer Products
+	- Platforms team (Tech Lead): Creating and enhancing shared build and developer tools, frameworks, monitoring systems, and department-level services for FT.com and the mobile app.
+
+*Senior Web Developer (Level 1)* (Oct 2018 to Apr 2020)
 - scoutAsia: Asia-focused companies and news analysis subscription-based tool.
 
 *Web Developer* (Oct 2016 to Sep 2018)
