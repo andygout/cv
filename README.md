@@ -78,15 +78,15 @@ Polyfills / Accessibility / Performance improvements / A/B testing / Data tracki
 
 *Web Developer* (Oct 2016 to Sep 2018)
 - FT.com
-	- Streams (Tech and Opinion page improvements, and realising a bespoke layout for Life & Arts)
-	- Digital News Innovation R&D (Google-funded): News article topic relevance and exploration engine data visualisation
-	- Accessibility (contributed to FT.com attaining Level AA Conformance to Web Content Accessibility Guidelines (WCAG))
-	- Conversion (retaining existing and enticing new subscribers with user-specific offers)
+	- Streams: Tech and Opinion page improvements, and realising a bespoke layout for Life & Arts.
+	- Digital News Innovation R&D (Google-funded): News article topic relevance and exploration engine data visualisation.
+	- Accessibility: Contributed to FT.com attaining Level AA Conformance to Web Content Accessibility Guidelines (WCAG).
+	- Conversion: Retaining existing and enticing new subscribers with user-specific offers.
 
 *Junior Web Developer* (Oct 2015 to Oct 2016)
 - FT.com
-	- Home page (iterations based on short feedback loops from editorial and tracked user interactions)
-	- Navigation (new header built in collaboration with Information Architecture team)
+	- Home page: Iterations based on short feedback loops from editorial and tracked user interactions.
+	- Navigation: New header built in collaboration with Information Architecture team.
 
 #### [Makers](https://makers.tech) coding bootcamp (Apr to Jul 2015)
 - Experience aplenty of group projects, pairing-up, and coding solo, using an Agile approach.
