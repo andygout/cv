@@ -83,7 +83,7 @@ Polyfills / Accessibility / Performance improvements / A/B testing / Data tracki
 	- Accessibility (contributed to FT.com attaining Level AA Conformance to Web Content Accessibility Guidelines (WCAG))
 	- Conversion (retaining existing and enticing new subscribers with user-specific offers)
 
-*Junior Web Developer* (Oct 2015 to Sep 2016)
+*Junior Web Developer* (Oct 2015 to Oct 2016)
 - FT.com
 	- Home page (iterations based on short feedback loops from editorial and tracked user interactions)
 	- Navigation (new header built in collaboration with Information Architecture team)
