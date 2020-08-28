@@ -9,7 +9,7 @@ I am a [Makers](https://makers.tech) graduate, landing my first developer role a
 ## Certifications
 - Elastic Certified Engineer (Aug 2019: [certificate](https://certified.elastic.co/6aef8190-76b7-4511-b28a-7479bc41bdad))
 - Neo4j Certified Professional (Jun 2019: [certificate download](https://graphacademy.neo4j.com/certificates/ef86f844de6c7479be245113803848ac24cba9ae6aea22f08fa9d612d87c651f.pdf))
-- AWS Certified Solutions Architect - Associate (Apr 2018: [badge verification](https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-04-25&ci=AWS00480997))
+- AWS Certified Solutions Architect - Associate (Apr 2018: [badge verification](https://www.youracclaim.com/badges/214ea912-7cbc-4cad-b084-ed2701c1d273))
 
 
 ## Technical experience
