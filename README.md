@@ -35,6 +35,7 @@ Polyfills / Accessibility / Performance improvements / A/B testing / Data tracki
 
 
 ## Presentations given
+- *Things Can Only Get Meta or: Querying Our Metadata With Elasticsearch* (FT, Jul 2021)
 - *Accessibility* (FT, May 2020)
 - *Found in Translation or: How Elasticsearch Helped Us Serve Our Asian Language-speaking Customers* (Elastic London User Group meetup, Jul 2019)
 - *Graph Databases: An Introduction* (FT, Nov 2017)
